@@ -25,3 +25,9 @@ MainPage::MainPage()
 {
 	InitializeComponent();
 }
+
+
+void App1::MainPage::Button_Ckick(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	greetingOutput->Text = "Hello, " + nameInput->Text + "!";
+}

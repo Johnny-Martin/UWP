@@ -17,5 +17,7 @@ namespace App1
 	public:
 		MainPage();
 
+	private:
+		void Button_Ckick(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

@@ -8,7 +8,15 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <StackPanel x:ConnectionId='1' x:Name="contentPanel" Margin="120,30,0,0">
+            <TextBlock HorizontalAlignment="Left" Text="Hello World" FontSize="36"/>
+            <TextBlock Text="What's your name?" FontSize="20"/>
+            <StackPanel x:ConnectionId='2' x:Name="inputPanel" Orientation="Horizontal" Margin="0,20,0,20">
+                <TextBox x:ConnectionId='4' x:Name="nameInput" Width="300" HorizontalAlignment="Left"/>
+                <Button x:ConnectionId='5' x:Name="inputButton" Content="Say 'Hello'"                     />
+            </StackPanel>
+            <TextBlock x:ConnectionId='3' x:Name="greetingOutput"/>
+        </StackPanel>
     </Grid>
 </Page>
 
