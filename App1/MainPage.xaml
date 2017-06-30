@@ -12,10 +12,11 @@
             <TextBlock HorizontalAlignment="Left" Text="Hello World" FontSize="36"/>
             <TextBlock Text="What's your name?" FontSize="20"/>
             <StackPanel x:Name="inputPanel" Orientation="Horizontal" Margin="0,20,0,20">
-                <TextBox x:Name="nameInput" Width="300" HorizontalAlignment="Left"/>
+                <TextBox x:Name="nameInput" PlaceholderText="Name" Width="300" HorizontalAlignment="Left" TextChanged="nameInput_TextChanged"/>
                 <Button x:Name="inputButton" Content="Say 'Hello'" Click="Button_Ckick"/>
             </StackPanel>
             <TextBlock x:Name="greetingOutput"/>
+            <Image x:Name="image" Height="100"/>
         </StackPanel>
     </Grid>
 </Page>

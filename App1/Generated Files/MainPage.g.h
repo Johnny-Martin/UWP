@@ -13,6 +13,7 @@ namespace Windows {
             namespace Controls {
                 ref class StackPanel;
                 ref class TextBlock;
+                ref class Image;
                 ref class TextBox;
                 ref class Button;
             }
@@ -38,6 +39,7 @@ namespace App1
         private: ::Windows::UI::Xaml::Controls::StackPanel^ contentPanel;
         private: ::Windows::UI::Xaml::Controls::StackPanel^ inputPanel;
         private: ::Windows::UI::Xaml::Controls::TextBlock^ greetingOutput;
+        private: ::Windows::UI::Xaml::Controls::Image^ image;
         private: ::Windows::UI::Xaml::Controls::TextBox^ nameInput;
         private: ::Windows::UI::Xaml::Controls::Button^ inputButton;
     };

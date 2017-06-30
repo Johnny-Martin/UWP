@@ -31,3 +31,9 @@ void App1::MainPage::Button_Ckick(Platform::Object^ sender, Windows::UI::Xaml::R
 {
 	greetingOutput->Text = "Hello, " + nameInput->Text + "!";
 }
+
+
+void App1::MainPage::nameInput_TextChanged(Platform::Object^ sender, Windows::UI::Xaml::Controls::TextChangedEventArgs^ e)
+{
+
+}

@@ -19,5 +19,6 @@ namespace App1
 
 	private:
 		void Button_Ckick(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void nameInput_TextChanged(Platform::Object^ sender, Windows::UI::Xaml::Controls::TextChangedEventArgs^ e);
 	};
 }
