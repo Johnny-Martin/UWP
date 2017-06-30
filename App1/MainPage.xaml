@@ -16,7 +16,13 @@
                 <Button x:Name="inputButton" Content="Say 'Hello'" Click="Button_Ckick"/>
             </StackPanel>
             <TextBlock x:Name="greetingOutput"/>
+<<<<<<< HEAD
             <Image x:Name="image" Height="100"/>
         </StackPanel>
     </Grid>
 </Page>
+=======
+        </StackPanel>
+    </Grid>
+</Page>
+>>>>>>> 820ba273ecebcfa56fe9d7dd2162f85c07086fc4
